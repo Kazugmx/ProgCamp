@@ -7,9 +7,7 @@ public class Ans2 {
 
         int[] dxy= Stream.of(sc.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
 
-        if(Math.abs(0-dxy[1])+Math.abs(0-dxy[2])<=dxy[0]){
-            System.out.println("Yes");
-        }else System.out.println("No");
-
+        if((Math.abs(0 - dxy[1]) + Math.abs(0 - dxy[2])) <= dxy[0]) System.out.println("Yes");
+        else System.out.println("No");
     }
 }
